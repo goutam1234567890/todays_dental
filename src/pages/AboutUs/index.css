@@ -1,0 +1,55 @@
+.about-us-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Each section block */
+.section {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9fefe;
+  border-left: 4px solid #2b7a78;
+  border-radius: 6px;
+  padding: 1.5rem 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.section h2 {
+  color: #2b7a78;
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+}
+
+.section p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.section strong {
+  color: #000;
+}
+
+/* Mission section slight highlight */
+.mission {
+  background-color: #e6f7f7;
+}
+
+/* Responsive spacing */
+@media (min-width: 768px) {
+  .about-us-page {
+    gap: 3rem;
+  }
+
+  .section {
+    padding: 2rem;
+  }
+
+  .section h2 {
+    font-size: 1.6rem;
+  }
+}
