@@ -50,7 +50,7 @@ src/
 ## 📦 Installation
 
 1. **Clone the repository**
-   git clone https://github.com/your-username/todays-dental.git
+   git clone https://github.com/goutam1234567890/todays_dental
    cd todays-dental
 
 2. **Install dependencies**
